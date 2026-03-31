@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TradeSim - Support</title>
+    <title>TradeSim - Terms of Service</title>
     <link rel="icon" type="image/png" href="assets/app_icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #121212; color: #ffffff; }
         .menu-panel { background: rgba(18, 18, 18, 0.96); border: 1px solid rgba(255, 255, 255, 0.12); backdrop-filter: blur(10px); }
-        input, select, textarea { background-color: #1a1a1a !important; border-color: #333 !important; color: white !important; }
-        input:focus { border-color: #ffffff !important; outline: none; }
     </style>
 </head>
 <body>
@@ -27,8 +25,8 @@
             <div id="menuDesktop" class="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
                 <a href="features" class="hover:text-white transition">Features</a>
                 <a href="privacy" class="hover:text-white transition">Privacy</a>
-                <a href="terms" class="hover:text-white transition">Terms</a>
-                <a href="support" class="text-white transition">Support</a>
+                <a href="terms" class="text-white transition">Terms</a>
+                <a href="support" class="hover:text-white transition">Support</a>
             </div>
         </nav>
 
@@ -36,43 +34,56 @@
             <div class="menu-panel rounded-2xl p-4 space-y-3 text-sm font-medium text-gray-300">
                 <a href="features" class="block hover:text-white transition">Features</a>
                 <a href="privacy" class="block hover:text-white transition">Privacy</a>
-                <a href="terms" class="block hover:text-white transition">Terms</a>
-                <a href="support" class="block text-white transition">Support</a>
+                <a href="terms" class="block text-white transition">Terms</a>
+                <a href="support" class="block hover:text-white transition">Support</a>
             </div>
         </div>
     </div>
 
-    <div class="max-w-xl mx-auto px-6 py-20">
-        <h2 class="text-3xl font-bold mb-4">Support & Deletion</h2>
-        <p class="text-gray-400 mb-10">Need technical assistance or wish to delete your data? Submit the form below, and we'll get back to you within 48 hours.</p>
+    <article class="max-w-3xl mx-auto px-6 py-20 leading-relaxed">
+        <h1 class="text-4xl font-extrabold mb-8">Terms of Service</h1>
+        <p class="text-gray-400 mb-8">Effective Date: March 31, 2026</p>
 
-        <form action="https://formspree.io/f/xkobejez" method="POST" class="space-y-6">
-            <div>
-                <label class="block text-sm font-semibold mb-2 text-gray-300">Your Email</label>
-                <input type="email" name="email" required class="w-full p-4 rounded-xl border transition">
-            </div>
-            <div>
-                <label class="block text-sm font-semibold mb-2 text-gray-300">Request Type</label>
-                <select name="type" class="w-full p-4 rounded-xl border transition">
-                    <option value="support">Technical Support</option>
-                    <option value="deletion">Account & Data Deletion</option>
-                    <option value="bug">Bug Report</option>
-                    <option value="review">Review</option>
-                </select>
-            </div>
-            <div>
-                <label class="block text-sm font-semibold mb-2 text-gray-300">Message</label>
-                <textarea name="message" rows="4" required class="w-full p-4 rounded-xl border transition"></textarea>
-            </div>
-            <button type="submit" class="w-full bg-white text-black font-bold py-4 rounded-xl hover:bg-gray-200 transition-transform active:scale-95">
-                Send Request
-            </button>
-        </form>
-        <p class="text-sm text-gray-400 mt-2">Form processing provided by <a href="https://formspree.io" class="underline hover:text-white">Formspree</a>.</p>
-    </div>
-    
+        <div class="space-y-8">
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">1. Acceptance of Terms</h3>
+                <p class="text-gray-400">By accessing or using TradeSim, you agree to these Terms of Service. If you do not agree, please do not use the app.</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">2. Educational Use Only</h3>
+                <p class="text-gray-400">TradeSim is a simulation platform for educational and entertainment purposes. It does not provide financial, investment, legal, or tax advice.</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">3. No Real Money Trading</h3>
+                <p class="text-gray-400">All balances, trades, and rankings in TradeSim are virtual. No real funds are deposited, withdrawn, or exchanged in the app.</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">4. Account Responsibilities</h3>
+                <p class="text-gray-400">You are responsible for maintaining the security of your account credentials and activity performed under your account.</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">5. Availability and Changes</h3>
+                <p class="text-gray-400">Features may change over time, and service availability is not guaranteed. We may update, suspend, or discontinue parts of TradeSim at any time.</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">6. Limitation of Liability</h3>
+                <p class="text-gray-400">To the maximum extent permitted by law, TradeSim is provided "as is" without warranties. We are not liable for any indirect, incidental, or consequential damages arising from your use of the app.</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-bold text-white mb-3">7. Contact</h3>
+                <p class="text-gray-400">If you have questions about these terms, contact us through the <a href="support" class="text-white underline">Support Page</a>.</p>
+            </section>
+        </div>
+    </article>
+
     <footer class="text-center py-12 text-xs text-gray-600 border-t border-white/5">
-        &copy; 2026 Rahul Menon | Built with Material 3 | Updated February 8, 2026
+        &copy; 2026 Rahul Menon | Built with Material 3 | Updated March 31, 2026
     </footer>
 
     <script>
